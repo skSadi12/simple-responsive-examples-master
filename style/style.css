@@ -20,3 +20,15 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+
+/* Responsive media */
+
+@media screen and (max-width:576px) {
+    .row{
+        display: block;
+        height: auto;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
