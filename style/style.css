@@ -6,8 +6,16 @@ img{
     display: flex;
     height: 400px;
     gap: 5px;
-
+    margin-bottom: 5px;
 }
 .de img{
     height: 50%;
+}
+.row > div{
+    flex: 1;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
 }
